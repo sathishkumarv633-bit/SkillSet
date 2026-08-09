@@ -1,0 +1,11 @@
+{
+  "name": "skillsetu",
+  "version": "1.0.0",
+  "description": "SkillSetu Local Skills Marketplace",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}

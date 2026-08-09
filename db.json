@@ -1,0 +1,241 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "Rahul",
+      "username": "rahul",
+      "password": "1234",
+      "category": "Tutoring",
+      "description": "Math Tutor",
+      "availability": "Mon-Fri",
+      "location": "Chennai",
+      "contact": "9876543210",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "name": "Priya",
+      "username": "priya",
+      "password": "1234",
+      "category": "Tailoring",
+      "description": "Ladies Tailor",
+      "availability": "Daily",
+      "location": "Coimbatore",
+      "contact": "9876543211",
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "name": "Arun",
+      "username": "arun",
+      "password": "1234",
+      "category": "Repairs",
+      "description": "Electrician",
+      "availability": "Morning",
+      "location": "Madurai",
+      "contact": "9876543212",
+      "rating": 4.4
+    },
+    {
+      "id": "4",
+      "name": "Meena",
+      "username": "meena",
+      "password": "1234",
+      "category": "Creative",
+      "description": "Graphic Designer",
+      "availability": "Weekends",
+      "location": "Salem",
+      "contact": "9876543213",
+      "rating": 4.9
+    },
+    {
+      "id": "5",
+      "name": "Karthik",
+      "username": "karthik",
+      "password": "1234",
+      "category": "Tutoring",
+      "description": "English Tutor",
+      "availability": "Evening",
+      "location": "Trichy",
+      "contact": "9876543214",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "name": "Suresh",
+      "username": "suresh",
+      "password": "1234",
+      "category": "Repairs",
+      "description": "Plumber",
+      "availability": "24/7",
+      "location": "Erode",
+      "contact": "9876543215",
+      "rating": 4.3
+    },
+    {
+      "id": "7",
+      "name": "Santhosh",
+      "username": "santhosh",
+      "password": "1234",
+      "category": "Creative",
+      "description": "Digital Artist",
+      "availability": "Monday to Friday 9:00 AM to 4:00 PM",
+      "location": "Sholinghur",
+      "contact": "8965423852",
+      "rating": 4.7
+    },
+    {
+      "id": "8",
+      "name": "Karthik",
+      "username": "karthik2",
+      "password": "1234",
+      "category": "Creative",
+      "description": "Painter",
+      "availability": "Monday to Friday 9:00 AM to 4:00 PM",
+      "location": "RK Pet",
+      "contact": "8649253145",
+      "rating": 4.6
+    },
+    {
+      "id": "9",
+      "name": "Guru",
+      "username": "guru",
+      "password": "1234",
+      "category": "Tutoring",
+      "description": "Tamil Tutor",
+      "availability": "Daily",
+      "location": "Vellore",
+      "contact": "7896542359",
+      "rating": 5
+    }
+  ],
+  "bookings": [
+    {
+      "id": "RN450F0tqVM",
+      "workerId": "9",
+      "workerName": "Guru",
+      "customerId": "1",
+      "customerName": "Kumar",
+      "phone": "9874563254",
+      "date": "2026-08-10",
+      "time": "10:00",
+      "message": "I want to learn Tamil",
+      "status": "Accepted"
+    },
+    {
+      "id": "DIw-EJIB6LU",
+      "workerId": "1",
+      "workerName": "Rahul",
+      "customerId": "1",
+      "customerName": "Kumar",
+      "phone": "9874563254",
+      "date": "2026-08-20",
+      "time": "11:00",
+      "message": "",
+      "status": "Accepted"
+    },
+    {
+      "workerId": "8",
+      "workerName": "Karthik",
+      "customerName": "sindhu",
+      "phone": "8965471235",
+      "date": "2026-08-22",
+      "time": "11:00",
+      "message": "",
+      "id": "6DVG1TfVAmE"
+    },
+    {
+      "workerId": "8",
+      "workerName": "Karthik",
+      "customerName": "kumar.v",
+      "phone": "7968542635",
+      "date": "2026-09-22",
+      "time": "09:00",
+      "message": "",
+      "id": "RjrLeIXLwgM"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "workerId": "1",
+      "customerName": "Kumar",
+      "rating": 5,
+      "review": "Rahul is a very good tutor. He explains mathematics clearly."
+    },
+    {
+      "id": "2",
+      "workerId": "6",
+      "customerName": "Arun",
+      "rating": 4,
+      "review": "Suresh provided good plumbing service and arrived on time."
+    },
+    {
+      "id": "3",
+      "workerId": "4",
+      "customerName": "Priya",
+      "rating": 5,
+      "review": "Meena did an excellent graphic design job."
+    },
+    {
+      "id": "4",
+      "workerId": "1",
+      "customerName": "Saran",
+      "rating": 5,
+      "review": "Very good."
+    },
+    {
+      "id": "5",
+      "workerId": "2",
+      "customerName": "Sindhu",
+      "rating": 5,
+      "review": "Good working person."
+    },
+    {
+      "id": "6",
+      "workerId": "6",
+      "customerName": "Zara",
+      "rating": 5,
+      "review": "Good worker."
+    },
+    {
+      "id": "7",
+      "workerId": "1",
+      "customerName": "Zara",
+      "rating": 5,
+      "review": "Good worker."
+    },
+    {
+      "id": "8",
+      "workerId": "3",
+      "customerName": "Karthi",
+      "rating": 4,
+      "review": "Good working person."
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "username": "kumar",
+      "password": "1234",
+      "name": "Kumar",
+      "phone": "9874563254"
+    },
+    {
+      "id": "2",
+      "username": "sindhu",
+      "password": "1234",
+      "name": "Sindhu",
+      "phone": "9874563255"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "SkillSetu Admin"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
